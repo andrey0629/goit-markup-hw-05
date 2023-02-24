@@ -155,7 +155,7 @@ img {
     position: relative;
 }
 
-.current::after {
+.header-link.current::after {
     display: block;
     content: "";
     width: 100%;
