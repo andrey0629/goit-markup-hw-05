@@ -45,7 +45,7 @@
         <section class="section-order-service section">
             <div class="container">
                 <h1 class="order-titel">Effective Solutions <br/> for Your Business</h1>    
-                <button type="button" class="button-order">Order Service</button>
+                <button type="button" class="button-order" data-modal-open>Order Service</button>
             </div>
         </section>
     
@@ -360,6 +360,21 @@
                 </ul>
             </div>
         </section>
+
+
+        <!-- HW-05, Модальное окно. Добавил с видеоинструкции 23.02.2023 -->
+
+        <div class="backdrop is-hidden" data-modal>
+            <div class="modal">
+                <button class="close" type="button" data-modal-close>
+                    <svg class="icon-close">
+                        <use href="./images/icons.svg#icon-close"></use>
+                    </svg>
+
+                </button>
+            </div>
+        </div>
+
     </main>
 
     <footer class="footer">
@@ -407,6 +422,9 @@
             </ul>
         </div>
     </footer>
+
+    <script src="./js/modal.js"></script>
+
 </body>
 
 </html>
